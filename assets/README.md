@@ -1,18 +1,33 @@
 # Assets Folder
 
-This folder should contain the following image assets for the Pacific Homefront website:
+## 🚀 Just Drop Your Images Here!
 
-## Required Images
+The website is already set up to use your images. Just add these files to this folder and they'll work automatically:
 
-### 1. Favicon
-**File:** `favicon.png`
+## Required Images (Already Configured!)
+
+### 1. **logo.png** ✅
+**This is your main logo - already set up in the navbar and footer!**
+- **File name:** `logo.png` (or `logo.svg` for best quality)
+- **Recommended size:** Width 150-250px, Height 40-60px
+- **Format:** PNG with transparent background (or SVG)
+- **Usage:** Navigation bar (top) and footer
+- **Notes:**
+  - Logo will be white in the footer (automatically inverted)
+  - Responsive sizing already configured
+  - Just drop the file here and refresh your browser!
+
+### 2. **favicon.png**
+**Browser tab icon**
+- **File name:** `favicon.png`
 - **Size:** 512x512px (will be auto-scaled)
 - **Format:** PNG with transparent background
 - **Content:** Pacific Homefront logo or "PH" initials
 - **Color scheme:** Blue gradient (#2563eb to #06b6d4)
 
-### 2. Open Graph Image (Social Sharing)
-**File:** `og-image.jpg`
+### 3. **og-image.jpg**
+**Social media sharing image**
+- **File name:** `og-image.jpg`
 - **Size:** 1200x630px
 - **Format:** JPG or PNG
 - **Content:** Pacific Homefront branding with tagline

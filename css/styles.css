@@ -135,6 +135,24 @@ a {
     padding: 1rem var(--spacing-md);
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 50px;
+    width: auto;
+    max-width: 200px;
+    transition: var(--transition);
+    object-fit: contain;
+}
+
+.logo-img:hover {
+    transform: scale(1.05);
+}
+
+/* Fallback text logo styles (if image doesn't load) */
 .logo h1 {
     font-size: 1.5rem;
     color: var(--dark);
@@ -798,6 +816,15 @@ section {
     margin-bottom: var(--spacing-sm);
 }
 
+.footer-logo {
+    height: 60px;
+    width: auto;
+    max-width: 200px;
+    margin-bottom: var(--spacing-sm);
+    object-fit: contain;
+    filter: brightness(0) invert(1);
+}
+
 .footer-col h4 {
     color: var(--white);
     margin-bottom: var(--spacing-sm);
@@ -909,6 +936,15 @@ section {
 
     .mobile-menu-toggle.active span:nth-child(3) {
         transform: rotate(-45deg) translate(7px, -6px);
+    }
+
+    .logo-img {
+        height: 40px;
+        max-width: 150px;
+    }
+
+    .footer-logo {
+        height: 50px;
     }
 
     .hero-title {
